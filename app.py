@@ -174,7 +174,7 @@ def display_snippet_cards(snippets):
         with st.container():
             st.markdown(
                 f"""
-                <div style="background-color:#F7F7F9;padding:1em 1em 0.5em 1em;border-radius:16px;margin-bottom:0.5em;box-shadow:0 1px 6px #0001;">
+                <div style="color:#1f4e79; background-color:#F7F7F9;padding:1em 1em 0.5em 1em;border-radius:16px;margin-bottom:0.5em;box-shadow:0 1px 6px #0001;">
                     <b>Tip {idx+1}</b><br>
                     {snippet}
                 </div>
